@@ -13,4 +13,4 @@ import world_tokenizer_cpp
 tokenizer_cpp = world_tokenizer_cpp.TRIE_TOKENIZER("rwkv_vocab_v20230424.txt")
 ```
 
-It's a drop in replacement (apart from the fact you can't multiprocess with it, you'll eed to initialise it multiple times).
+It's a drop in replacement (apart from the fact you can't multiprocess with it, you'll need to initialise it multiple times).
