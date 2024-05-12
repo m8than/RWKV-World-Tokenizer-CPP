@@ -7,7 +7,8 @@ using namespace std;
 
 int main() {
     //TRIE_TOKENIZER tokenizer("hextest_vocab.txt");
-    TRIE_TOKENIZER tokenizer("../rwkv_vocab_v20230424.txt");
+    TRIE_TOKENIZER tokenizer("b_rwkv_vocab_v20230424.txt");
+
     // multi line string:
     auto stringtoencode = R"(Q: System with two quadratic equations Respected All.
 I am unable to find out what's so wrong in the following. Please help me.
